@@ -1,5 +1,8 @@
 <?php
 
+
+// adicionar código no arquivo functions.php
+
 add_filter( 'pre_get_posts', 'custom_change_seguros_posts_per_page' );
 /**
  * Change Posts Per Page for seguros Archive.
